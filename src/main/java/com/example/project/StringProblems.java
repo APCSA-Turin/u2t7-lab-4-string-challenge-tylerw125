@@ -41,7 +41,7 @@ public class StringProblems{
         return s1;
     }
 
-    public String testfizzString(String s1){
+    public String fizzString(String s1){
         boolean startsWithF = s1.startsWith("f");
         boolean endsWithB = s1.endsWith("b");
 
@@ -52,7 +52,7 @@ public class StringProblems{
         return s1;
     }
 
-    public String testfizzString2(int x){
+    public String fizzString2(int x){
         if(x % 3 == 0 && x % 5 == 0) return "FizzBuzz!";
         if(x % 3 == 0) return "Fizz!";
         if(x % 5 == 0) return "Buzz!";
